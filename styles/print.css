@@ -1,1 +1,10 @@
-
+nav {
+    display: none;
+}
+img {
+    display: none;
+}
+section {
+    display: flex;
+    list-style: row;
+}
