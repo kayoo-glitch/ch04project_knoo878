@@ -7,7 +7,18 @@ image-flex {
 img {
     width: 100%;
 }
+@media only screen and (min-device-width : 768px) and (max-device-width : 900x) {
+        
+}
+@media only screen and (min-device-width : 1200px) {
+
+}
 nav {
     display: flex;
-    list-style: none;
+    list-style: row;
+}   
+@media only screen (max-device-width : 768x) {
+    nav {
+        display: column;
+    }
 }
