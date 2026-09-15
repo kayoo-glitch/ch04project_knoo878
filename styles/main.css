@@ -1,7 +1,9 @@
 body {
     display: grid;
     grid-template-areas: 
-    "";
+    "header nav"
+    "body body"
+    "body body";
 }
 image-flex {
     display: flex;
