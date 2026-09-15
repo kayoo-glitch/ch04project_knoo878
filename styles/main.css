@@ -3,3 +3,6 @@ body {
     grid-template-areas: 
     "";
 }
+image-flex {
+    display: flex;
+}
